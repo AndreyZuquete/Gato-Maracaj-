@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gato-Maracajá</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #1b2b1b, #2f4f2f, #556b2f);
+      font-family: 'Inter', sans-serif;
+      color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 30px;
+      color: #1b2b1b;
+    }
+
+    .imagem-animal {
+      width: 280px;
+      height: 340px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 35px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .texto {
+      font-size: 20px;
+      line-height: 1.7;
+      max-width: 750px;
+      margin: 0 auto;
+      text-align: justify;
+    }
+
+    .texto::first-letter {
+      font-size: 40px;
+      font-weight: bold;
+      float: left;
+      margin-right: 8px;
+      line-height: 1;
+      color: #556b2f;
+    }
+
+    .rodape {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .rodape a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #556b2f;
+      transition: 0.3s;
+    }
+
+    .rodape a:hover {
+      color: #1b2b1b;
+      text-decoration: underline;
+    }
+
+    .assinatura {
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .texto {
+        font-size: 18px;
+      }
+
+      .imagem-animal {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Gato-Maracajá</h1>
+
+    <img
+      class="imagem-animal"
+      src="https://faunanews.com.br/wp-content/uploads/2021/03/gato-maracaja-Supreet-Sahoo-wikimedia-commons-683x1024.jpg"
+      alt="Gato-Maracajá"
+    />
+
+    <p class="texto">
+      O gato-maracajá é um pequeno felino selvagem que vive nas florestas da América Latina.
+      Apesar de parecer um gatinho doméstico estiloso, ele é um verdadeiro especialista em
+      escalar árvores e se mover silenciosamente pela mata.
+      <br><br>
+      Esse felino possui olhos grandes, pelagem cheia de manchas e um corpo extremamente ágil.
+      Ele passa grande parte do tempo nas árvores, onde consegue se equilibrar com facilidade
+      graças à sua cauda longa e às patas muito flexíveis.
+      <br><br>
+      Diferente de muitos outros felinos, o maracajá consegue até descer de árvores de cabeça
+      para baixo, como se fosse um pequeno acrobata da floresta.
+      <br><br>
+      Sua alimentação inclui pequenos mamíferos, aves, lagartos e até alguns insetos.
+      Ele é um caçador noturno, preferindo sair para procurar comida quando a floresta
+      está mais silenciosa.
+      <br><br>
+      Mesmo sendo um animal incrível e muito bonito, o gato-maracajá enfrenta ameaças
+      devido à perda de habitat e à destruição das florestas onde vive.
+      Por isso, a preservação das matas é essencial para garantir a sobrevivência
+      dessa espécie fascinante.
+    </p>
+
+    <div class="rodape">
+      <p>
+        <a href="https://pt.wikipedia.org/wiki/Leopardus_wiedii" target="_blank">
+          Saiba mais na Wikipedia
+        </a>
+      </p>
+      <p class="assinatura">
+        Feito por Andrey Victor Zuquete • 05 de março de 2026
+      </p>
+    </div>
+  </div>
+</body>
+</html>
